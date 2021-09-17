@@ -3,3 +3,9 @@
 // that has the id="error".
 
 
+let error = document.getElementById('error')
+let message = "Something went wrong, please try again"
+console.log(error)
+function errorMsg() {
+  error.textContent = message
+}

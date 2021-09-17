@@ -1,17 +1,16 @@
-let count = 0
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
+let myPoints = 3
 
-function increment() {
-    count += 1
-    countEl.textContent = count
+function add3Points() {
+  myPoints += 3
 }
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContenttStr
-    countEl.textContent = 0
-    count = 0
+function remove1Point() {
+  myPoints -= 1
 }
 
-console.log("Let's count people on the subway!")
+add3Points()
+add3Points()
+add3Points()
+remove1Point()
+remove1Point()
+console.log(myPoints)
