@@ -1,13 +1,21 @@
 /* Complete the CSS styling according to the provided design */
 
 body {
-    
-}
+    background-image: url("images/table.png");
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+  }
 
-h1 {
+  h1 {
     color: goldenrod;
-}
+  }
 
-#message-el {
-    
+  #message-el {
+    font-style: italic;
 }
